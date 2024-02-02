@@ -1,0 +1,78 @@
+@media (max-width: 776px) {
+	.nav {
+		&-logo {
+			font-size: 2.5rem;
+		}
+		&-buttons {
+			font-size: 1.5rem;
+			width: 40%;
+			svg {
+				height: 3vh;
+			}
+		}
+		button:hover {
+			font-size: 1.4rem;
+		}
+		&-user {
+			font-size: 1.4rem;
+		}
+	}
+	.hero {
+		&-main {
+			&-text {
+				font-size: 1.2rem;
+				h1 {
+					font-size: 3rem;
+					margin-bottom: 1rem;
+				}
+			}
+		}
+	}
+	.wrapper {
+		width: 85%;
+		.top {
+			font-size: 1.4rem;
+		}
+		.bottom {
+			label {
+				font-size: 1rem;
+			}
+			input,
+			select {
+				font-size: 0.9rem;
+			}
+			.buttons {
+				font-size: 1.2rem;
+			}
+		}
+	}
+	.modal-body {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.balance {
+		.wrapper {
+			width: 100%;
+		}
+
+		.tab {
+			display: flex;
+			flex-direction: column;
+			width: 100%;
+			margin: 0.4rem 0;
+			.wrapper {
+				height: 80vh;
+				margin: 0;
+			}
+		}
+	}
+	.piechart {
+		&-main {
+			flex-direction: column;
+			h2 {
+				font-size: 2rem;
+			}
+		}
+	}
+}
